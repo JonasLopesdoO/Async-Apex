@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <!-- Future Methods -->
+        <members>AccountProcessor</members>
+        <members>AccountProcessorTest</members>
+        <!-- Queueable Apex -->
+        <!-- Batch Apex -->
+        <!-- Scheduled Apex -->
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>Account.Number_Of_Contacts__c</members>
+        <name></name>
+    </types>
+    
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <version>52.0</version>
+</Package>
