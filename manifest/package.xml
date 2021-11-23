@@ -5,6 +5,8 @@
         <members>AccountProcessor</members>
         <members>AccountProcessorTest</members>
         <!-- Queueable Apex -->
+        <members>UpdateParentAccount</members>
+        <members>UpdateParentAccountTest</members>
         <!-- Batch Apex -->
         <!-- Scheduled Apex -->
         <name>ApexClass</name>
@@ -12,12 +14,8 @@
 
     <types>
         <members>Account.Number_Of_Contacts__c</members>
-        <name></name>
+        <name>CustomField</name>
     </types>
     
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
     <version>52.0</version>
 </Package>
