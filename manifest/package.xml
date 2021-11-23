@@ -5,6 +5,8 @@
         <members>AccountProcessor</members>
         <members>AccountProcessorTest</members>
         <!-- Queueable Apex -->
+        <members>AddPrimaryContact</members>
+        <members>AddPrimaryContactTest</members>
         <members>UpdateParentAccount</members>
         <members>UpdateParentAccountTest</members>
         <!-- Batch Apex -->

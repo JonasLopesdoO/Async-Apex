@@ -1,4 +1,4 @@
-public with sharing class AccountProcessor {
+public class AccountProcessor {
     @future
     public static void countContacts(List<Id> accountIds) {
         List<Account> accounts = [SELECT Id, Name, Number_Of_Contacts__c, (SELECT Id FROM Contacts) FROM ACCOUNT];
