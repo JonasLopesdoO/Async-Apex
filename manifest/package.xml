@@ -10,14 +10,17 @@
         <members>UpdateParentAccount</members>
         <members>UpdateParentAccountTest</members>
         <!-- Batch Apex -->
+        <members>EmailUtils</members>
+        <members>UpdateContactAddresses</members>
+        <members>UpdateContactAddressesTest</members>
         <!-- Scheduled Apex -->
         <name>ApexClass</name>
     </types>
 
     <types>
+        <!-- Future Methods -->
         <members>Account.Number_Of_Contacts__c</members>
         <name>CustomField</name>
     </types>
-    
     <version>52.0</version>
 </Package>
