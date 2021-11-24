@@ -14,6 +14,8 @@
         <members>UpdateContactAddresses</members>
         <members>UpdateContactAddressesTest</members>
         <!-- Scheduled Apex -->
+        <members>UpdateContactAddressScheduler</members>
+        <members>UpdateContactAddressSchedulerTest</members>
         <name>ApexClass</name>
     </types>
 
