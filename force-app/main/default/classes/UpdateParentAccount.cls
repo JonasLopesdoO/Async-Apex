@@ -9,7 +9,7 @@ public class UpdateParentAccount implements Queueable {
     
     public void execute(QueueableContext context) {
         for (Account account : accounts) {
-          account.parentId = parent;
+            account.parentId = parent;
         }
         
         update accounts;
